@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    background: crimson;
+    color: #fff;
+    text-align: center;
+}
+
+.one h1 {
+    font-size: 64px;
+    margin: 0;
+    font-family: 'Germania One', cursive;
+}
+
+.one p {
+    padding: 0 15%;
+    font-size: 15px;
+    font-family: 'Germania One', cursive;
+    margin-bottom: 20px;
+}
+
+.one a {
+    background: #252525;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: 'Baloo', cursive;
+}
+
+.four {
+    background-image: url('../img/blonde-hair-woman-wearing-gray-suit-jacket-holding-825979.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url('../img/woman-in-gray-coat-holding-white-smartphone-943084.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.five {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/woman-in-gray-coat-holding-white-smartphone-943084.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.five h2 {
+    font-size: 49px;
+    font-family: 'Germania One', cursive;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.five p {
+    padding: 0 15%;
+    font-size: 15px;
+    font-family: 'Baloo', cursive;
+}
+
+.three {
+    background-image: url('../img/woman-in-white-blazer-holding-tablet-computer-789822.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.six {
+    text-align: center;
+}
+
+.six h2 {
+    font-family: 'Germania One', cursive;
+    margin-bottom: 20px;
+}
+
+.six input {
+    width: 350px;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid crimson;
+}
+
+.six a {
+    display: block;
+    text-decoration: none;
+    background: crimson;
+    width: 350px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    font-family: 'Baloo', cursive;
+}
+
+#multiscroll-nav span {
+    border: 1px solid crimson;
+    background: crimson;
+}

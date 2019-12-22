@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.banner {
+    background-image: url('./wave-photograph-210227.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+span {
+    color: rgb(52, 95, 97);
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3em;
+}

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(22, 23, 12, 0.4), rgba(43, 43, 44, 1))
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.wrapper h2 {
+    margin-top: 100px;
+    font-family: 'Baloo', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+.img-area {
+    position: relative;
+    width: 46%;
+    height: 250px;
+    transition: .5s;
+    overflow: hidden;
+    float: left;
+    margin: 100px 15px;
+    text-align: center;
+}
+
+.img-area img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6%;
+}
+
+.img-area:hover {
+    box-shadow: 0 30px 35px rgba(0, 0, 0, 0.7);
+}
+
+.img-area span {
+    position: absolute;
+    top: 0px;
+    left: -110%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.5s;
+    transform: skewX(10deg);
+}
+
+.img-area:hover span {
+    left: 110%;
+}
